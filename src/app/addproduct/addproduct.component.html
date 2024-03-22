@@ -1,0 +1,16 @@
+<div class="background-container">
+    <div class="form-container">
+        <form #ProductForm="ngForm" (ngSubmit)="addproduct(ProductForm.value)">
+            <fieldset>
+                <legend>Add Product Details</legend>
+                <label>Product name</label>
+                <input type="text" name="Pname" ngModel>
+
+                <label>Product quantity</label>
+                <input type="number" name="Pquan" ngModel>
+
+                <button type="submit">Add Product</button>
+            </fieldset>
+        </form>
+    </div>
+</div>

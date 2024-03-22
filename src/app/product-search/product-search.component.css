@@ -1,0 +1,57 @@
+.search-container {
+  display: grid;
+  place-items: center;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+.search-container form {
+  display: grid;
+  grid-template-columns: auto auto; /* Adjust column widths as needed */
+  gap: 10px; /* Adjust gap between elements */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  width: 300px; /* Adjust width as needed */
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: blue; /* Change button color to blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  justify-self: center; /* Align button horizontally at the center */
+}
+
+.search-container button:hover {
+  background-color: #007acc; /* Change hover color to a shade of blue */
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Display product names horizontally in 5 columns */
+  grid-gap: 10px; /* Adjust gap between items */
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.product-list li {
+  padding: 10px;
+  border: 2px solid #ccc; /* Border for each grid box */
+  border-radius: 5px;
+}
+
+.product-list li:last-child {
+  border: none;
+}

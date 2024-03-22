@@ -1,0 +1,124 @@
+.product-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.get-products-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.get-products-button:hover {
+  background-color: #0056b3;
+}
+
+.product-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.product-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-row:hover {
+  background-color: #e2e2e2;
+}
+
+
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-products-button {
+    margin-bottom: 20px;
+    /* Add any other button styles as needed */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Add some space between grid items */
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+
+
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./image-doc.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.product-grid {
+  display: inline-block; /* Change display to inline-block */
+}
+
+.product-card {
+  display: inline-block; /* Display grid items as inline-block */
+  width: 200px; /* Set a fixed width for each grid item */
+  margin-right: 20px; /* Add space between grid items */
+  margin-bottom: 20px; /* Add space between rows */
+}
+.product-grid {
+  display: inline-block;
+}
+
+.product-card {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Add a slight lift on hover */
+  transition: transform 0.3s ease; /* Add smooth transition */
+  background-color: #333;
+}
+
+/* Define different background colors for different products */
+.product-card:nth-child(odd) {
+  background-color: #03a9f4; 
+}
+
+.product-card:nth-child(even) {
+  background-color: #03a9f4; 
+}

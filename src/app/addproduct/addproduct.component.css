@@ -1,0 +1,81 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  /* addproduct.component.css */
+
+/* Centering the submit button */
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button[type="submit"] {
+  margin-top: 20px; /* Optional: Adds some space between the inputs and the button */
+}
+
+/* addproduct.component.css */
+
+/* Centering the fieldset on the web page */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Adjusts the height of the container */
+}
+
+fieldset {
+  width: 300px; /* Adjust width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.background-container {
+  /* Set the background image */
+  background-image: url('./background-image.png');
+  /* Set background image properties */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /* Optionally, you can set a background color in case the image is not available */
+  background-color: #3a1212;
+}
+
+.form-container {
+  /* Add styling for the form container if needed */
+  /* For example: */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Set background color with transparency */
+}
